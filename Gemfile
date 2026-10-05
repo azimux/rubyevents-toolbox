@@ -20,9 +20,10 @@ end
 group :development, :test do
   gem "pry"
   gem "pry-byebug"
-  # TODO: Just adding this to suppress warnings seemingly coming from pry-byebug. Can probably remove this once
-  # pry-byebug has irb as a gem dependency
-  gem "irb"
+
+  gem "foobara-anthropic-api", ">= 1.0.8", "< 2.0.0" # , path: "../anthropic-api"
+  gem "foobara-ollama-api", "< 2.0.0" # , path: "../ollama-api"
+  gem "foobara-open-ai-api", "< 2.0.0" # , path: "../open-ai-api"
 end
 
 group :test do
