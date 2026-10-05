@@ -1,0 +1,1618 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.anthropic.com/v1/messages
+    body:
+      encoding: UTF-8
+      string: '{"model":"claude-fable-5-1","max_tokens":128000,"messages":[{"role":"user","content":"{\"raw_input_text\":\"<!DOCTYPE
+        html>\\n<html class=\\\"h-screen\\\" style=\\\"--wm-toolbar-height: 69px;\\\"><head>\\n<meta
+        http-equiv=\\\"content-type\\\" content=\\\"text/html; charset=UTF-8\\\"><script
+        src=\\\"Agenda_files/athena_5UTK.js\\\" type=\\\"text/javascript\\\"></script>\\n<script
+        type=\\\"text/javascript\\\">window.addEventListener(''DOMContentLoaded'',function(){var
+        v=archive_analytics.values;v.service=''wb'';v.server_name=''wwwb-app220.us.archive.org'';v.server_ms=1217;archive_analytics.send_pageview({});});</script>\\n<script
+        type=\\\"text/javascript\\\" src=\\\"Agenda_files/bundle-playback_5UTK.js\\\"
+        charset=\\\"utf-8\\\"></script>\\n<script type=\\\"text/javascript\\\" src=\\\"Agenda_files/wombat_5UTK.js\\\"
+        charset=\\\"utf-8\\\"></script>\\n<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={\\\"autoplay\\\":\\\"on\\\",\\\"unmuteOverlay\\\":\\\"hidden\\\",\\\"showSwfDownload\\\":true};</script>\\n<script
+        type=\\\"text/javascript\\\" src=\\\"Agenda_files/ruffle_5UTK.js\\\"></script>\\n<script
+        type=\\\"text/javascript\\\">\\n    __wm.init(\\\"https://web.archive.org/web\\\");\\n  __wm.wombat(\\\"https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-18\\\",\\\"20251214035507\\\",\\\"https://web.archive.org/\\\",\\\"web\\\",\\\"https://web-static.archive.org/_static/\\\",\\n\\t      \\\"1765684507\\\");\\n</script>\\n<link
+        rel=\\\"stylesheet\\\" type=\\\"text/css\\\" href=\\\"Agenda_files/banner-styles_5UTK.css\\\">\\n<link
+        rel=\\\"stylesheet\\\" type=\\\"text/css\\\" href=\\\"Agenda_files/iconochive_5UTK.css\\\">\\n<!--
+        End Wayback Rewrite JS Include -->\\n\\n    <title>Agenda</title>\\n\\n    <meta
+        name=\\\"viewport\\\" content=\\\"width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover\\\">\\n    <meta
+        name=\\\"turbo-refresh-scroll\\\" content=\\\"preserve\\\">\\n    <meta name=\\\"turbo-refresh-method\\\"
+        content=\\\"morph\\\">\\n    <meta name=\\\"view-transition\\\" content=\\\"same-origin\\\">\\n    <meta
+        name=\\\"apple-mobile-web-app-capable\\\" content=\\\"yes\\\">\\n    <meta
+        name=\\\"apple-mobile-web-app-status-bar-style\\\" content=\\\"black-translucent\\\">\\n\\n    <link
+        rel=\\\"apple-touch-icon\\\" href=\\\"https://web.archive.org/web/20251214035507im_/https://app.euruko.org/assets/favicon-2a9b1a36.svg\\\">\\n    <link
+        rel=\\\"manifest\\\" crossorigin=\\\"use-credentials\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/manifest.json\\\">\\n\\n    <!--
+        iPhone X, XS, 11 Pro -->\\n<link rel=\\\"apple-touch-startup-image\\\" href=\\\"https://web.archive.org/assets/splashscreens/iPhone_X_XS_11_Pro-81003ada.png\\\"
+        media=\\\"(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone Xr, 11 -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_Xr_11-1660b87f.png\\\"
+        media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio:
+        2)\\\">\\n\\n<!-- iPhone Xs Max, 11 Pro Max -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_XsMax_11_ProMax-3fe263ca.png\\\"
+        media=\\\"(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 6, 6s, 7, 8 -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_6_6s_7_8-8a31a08a.png\\\"
+        media=\\\"(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio:
+        2)\\\">\\n\\n<!-- iPhone 6 Plus, 6s Plus, 7 Plus, 8 Plus -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_6Plus_6sPlus_7Plus_8Plus-fbd85c9d.png\\\"
+        media=\\\"(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPad Mini, Air (768x1024) -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPad_Mini_Air_2-0acc4ab9.png\\\"
+        media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio:
+        2)\\\">\\n\\n<!-- iPad Mini, Air (1536x2048) -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPad_Mini_Air-b8e7a091.png\\\"
+        media=\\\"(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio:
+        1)\\\">\\n\\n<!-- iPad Pro (2048x2732) -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPad_Pro-666a741e.png\\\"
+        media=\\\"(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio:
+        2)\\\">\\n\\n<!-- iPad Pro 11\\\" (1668x2388) -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPad_Pro_11-7bd8a58a.png\\\"
+        media=\\\"(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio:
+        2)\\\">\\n\\n<!-- iPhone 12 and iPhone 12 Pro -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_12_Pro.png\\\"
+        media=\\\"(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 12 Mini -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_12_Mini.png\\\"
+        media=\\\"(device-width: 360px) and (device-height: 780px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 12 Pro Max -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_12_Pro_Max.png\\\"
+        media=\\\"(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 13 and iPhone 13 Pro -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_13_Pro.png\\\"
+        media=\\\"(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 13 Mini -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_13_Mini.png\\\"
+        media=\\\"(device-width: 360px) and (device-height: 780px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 13 Pro Max -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_13_Pro_Max.png\\\"
+        media=\\\"(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 14 and iPhone 14 Pro -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_14_Pro.png\\\"
+        media=\\\"(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 14 Plus -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_14_Plus.png\\\"
+        media=\\\"(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n<!-- iPhone 14 Pro Max -->\\n<link rel=\\\"apple-touch-startup-image\\\"
+        href=\\\"https://web.archive.org/assets/splashscreens/iPhone_14_Pro_Max.png\\\"
+        media=\\\"(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio:
+        3)\\\">\\n\\n\\n    <meta name=\\\"csrf-param\\\" content=\\\"authenticity_token\\\">\\n<meta
+        name=\\\"csrf-token\\\" content=\\\"48Fn9Wj9tVX6YpKT8IL1tloXdKyUHW9JTyzc0YjXnDyfkUuZuOXetIrYS_qEch7dttUVXqTxGnB3efQlJxwVCw\\\">\\n    \\n\\n    <link
+        rel=\\\"stylesheet\\\" href=\\\"Agenda_files/tailwind-eec880d5_5UTK.css\\\"
+        data-turbo-track=\\\"reload\\\">\\n<link rel=\\\"stylesheet\\\" href=\\\"Agenda_files/inter-font-1d90a608_5UTK.css\\\"
+        data-turbo-track=\\\"reload\\\">\\n    <link rel=\\\"stylesheet\\\" href=\\\"Agenda_files/application-f7f68b46_5UTK.css\\\"
+        data-turbo-track=\\\"reload\\\">\\n    \\n\\n    <script async=\\\"\\\" src=\\\"Agenda_files/es-module-shims_5UTK.js\\\"
+        data-turbo-track=\\\"reload\\\"></script>\\n\\n    <script type=\\\"importmap\\\"
+        data-turbo-track=\\\"reload\\\">{\\n  \\\"imports\\\": {\\n    \\\"application-mcj\\\":
+        \\\"/assets/mission_control/jobs/application-8d538c5b.js\\\",\\n    \\\"@hotwired/turbo-rails\\\":
+        \\\"/assets/turbo.min-29118695.js\\\",\\n    \\\"@hotwired/stimulus\\\": \\\"/assets/@hotwired--stimulus-29c9003a.js\\\",\\n    \\\"@hotwired/stimulus-loading\\\":
+        \\\"/assets/stimulus-loading-1fc53fe7.js\\\",\\n    \\\"application\\\": \\\"/assets/application-c4c5d025.js\\\",\\n    \\\"@stimulus-components/dropdown\\\":
+        \\\"/assets/@stimulus-components--dropdown-400bbed5.js\\\",\\n    \\\"stimulus-use\\\":
+        \\\"/assets/stimulus-use-600ac2c2.js\\\",\\n    \\\"trix\\\": \\\"/assets/trix-4b540cb5.js\\\",\\n    \\\"@rails/actiontext\\\":
+        \\\"/assets/actiontext.esm-f1c04d34.js\\\",\\n    \\\"@stimulus-components/password-visibility\\\":
+        \\\"/assets/@stimulus-components--password-visibility-893d90e1.js\\\",\\n    \\\"controllers/application\\\":
+        \\\"/assets/controllers/application-3f3d5175.js\\\",\\n    \\\"controllers/form_controller\\\":
+        \\\"/assets/controllers/form_controller-a8ab47a8.js\\\",\\n    \\\"controllers\\\":
+        \\\"/assets/controllers/index-86bf0c62.js\\\",\\n    \\\"helpers/debounce_helpers\\\":
+        \\\"/assets/mission_control/jobs/helpers/debounce_helpers-b50ffac4.js\\\",\\n    \\\"helpers\\\":
+        \\\"/assets/mission_control/jobs/helpers/index-189f6a8b.js\\\",\\n    \\\"controllers/closable_controller\\\":
+        \\\"/assets/controllers/closable_controller-49527f31.js\\\",\\n    \\\"controllers/dark_mode_controller\\\":
+        \\\"/assets/controllers/dark_mode_controller-a4af1003.js\\\",\\n    \\\"controllers/image_previewer_controller\\\":
+        \\\"/assets/controllers/image_previewer_controller-59ccf830.js\\\",\\n    \\\"controllers/preserve_scroll_controller\\\":
+        \\\"/assets/controllers/preserve_scroll_controller-dda9b772.js\\\",\\n    \\\"controllers/scroll_to_controller\\\":
+        \\\"/assets/controllers/scroll_to_controller-52d08faa.js\\\",\\n    \\\"controllers/web_push_notifications_controller\\\":
+        \\\"/assets/controllers/web_push_notifications_controller-161bf10e.js\\\",\\n    \\\"custom/companion\\\":
+        \\\"/assets/custom/companion-91bd7001.js\\\"\\n  }\\n}</script>\\n<link rel=\\\"modulepreload\\\"
+        href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/mission_control/jobs/application-8d538c5b.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/turbo.min-29118695.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/@hotwired--stimulus-29c9003a.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/stimulus-loading-1fc53fe7.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/application-c4c5d025.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/@stimulus-components--dropdown-400bbed5.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/stimulus-use-600ac2c2.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/trix-4b540cb5.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/actiontext.esm-f1c04d34.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/@stimulus-components--password-visibility-893d90e1.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/application-3f3d5175.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/form_controller-a8ab47a8.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/index-86bf0c62.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/mission_control/jobs/helpers/debounce_helpers-b50ffac4.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/mission_control/jobs/helpers/index-189f6a8b.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/closable_controller-49527f31.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/dark_mode_controller-a4af1003.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/image_previewer_controller-59ccf830.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/preserve_scroll_controller-dda9b772.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/scroll_to_controller-52d08faa.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/controllers/web_push_notifications_controller-161bf10e.js\\\">\\n<link
+        rel=\\\"modulepreload\\\" href=\\\"https://web.archive.org/web/20251214035507jm_/https://app.euruko.org/assets/custom/companion-91bd7001.js\\\">\\n<script
+        type=\\\"module\\\">var _____WB$wombat$assign$function_____=function(name){return
+        (globalThis._wb_wombat && globalThis._wb_wombat.local_init && globalThis._wb_wombat.local_init(name))||globalThis[name];};if(!globalThis.__WB_pmw){globalThis.__WB_pmw=function(obj){this.__WB_source=obj;return
+        this;}}var window = _____WB$wombat$assign$function_____(\\\"window\\\");\\nvar
+        self = _____WB$wombat$assign$function_____(\\\"self\\\");\\nvar document =
+        _____WB$wombat$assign$function_____(\\\"document\\\");\\nvar location = _____WB$wombat$assign$function_____(\\\"location\\\");\\nvar
+        top = _____WB$wombat$assign$function_____(\\\"top\\\");\\nvar parent = _____WB$wombat$assign$function_____(\\\"parent\\\");\\nvar
+        frames = _____WB$wombat$assign$function_____(\\\"frames\\\");\\nvar opener
+        = _____WB$wombat$assign$function_____(\\\"opener\\\");\\nimport \\\"/web/20251214035507jm_/https://app.euruko.org/application\\\"</script>\\n    <link
+        rel=\\\"icon\\\" type=\\\"image/x-icon\\\" href=\\\"https://web.archive.org/web/20251214035507im_/https://app.euruko.org/assets/icons/favicon-15af1f06.svg\\\">\\n\\n    \\n  </head>\\n\\n  <body
+        class=\\\"flex flex-col h-full bg-grey-50\\\" data-controller=\\\"dark-mode\\\"><!--
+        BEGIN WAYBACK TOOLBAR INSERT -->\\n<script>__wm.rw(0);</script>\\n<div id=\\\"wm-ipp-base\\\"
+        lang=\\\"en\\\" style=\\\"display: block; direction: ltr; height: 69px;\\\"
+        toolbar-mode=\\\"auto\\\">\\n</div><div id=\\\"wm-ipp-print\\\">The Wayback
+        Machine - https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-18</div>\\n<script
+        type=\\\"text/javascript\\\">//<![CDATA[\\n__wm.bt(775,27,25,2,\\\"web\\\",\\\"https://app.euruko.org/sessions?only_path=true&starts_at=2025-09-18\\\",\\\"20251214035507\\\",1996,\\\"https://web-static.archive.org/_static/\\\",[\\\"https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3\\\",\\\"https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv\\\"],
+        false);\\n  __wm.rw(1);\\n//]]></script>\\n<!-- END WAYBACK TOOLBAR INSERT
+        -->\\n \\n\\n    <div class=\\\"fixed top-0 z-40 w-full\\\">\\n        <header
+        class=\\\"flex justify-center w-full pb-6 mx-auto border-b pt-safe-area-6
+        border-b-white bg-[#CC1525] dark:bg-[#182027] dark:border-[#182027]\\\">\\n  <div
+        class=\\\"flex px-5 max-w-screen-sm\\\">\\n    <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/\\\">\\n      <img
+        class=\\\"w-full\\\" src=\\\"Agenda_files/main_logo-10e1ae8e_5UTK.png\\\">\\n</a>  </div>\\n</header>\\n\\n\\n    </div>\\n\\n    <main
+        class=\\\"flex flex-col flex-1 w-full mx-auto\\\">\\n      <div id=\\\"flash_message\\\">\\n      </div>\\n\\n      \\n\\n\\n<div
+        class=\\\"flex flex-col items-center h-full bg-grey-50 pt-safe-area-header
+        dark:bg-[#0f171b]\\\">\\n  <div class=\\\"flex flex-col items-center w-full
+        h-full px-5 max-w-screen-md\\\">\\n    <div class=\\\"sticky z-30 flex flex-col
+        items-center w-full pt-6 top-safe-area-header bg-grey-50 dark:bg-[#0f171b]\\\">\\n      <div
+        class=\\\"flex w-full mb-4\\\">\\n        <h1 class=\\\"text-3xl italic font-black
+        text-gray-800 d-hotwire-native-none dark:text-lightcolor\\\">Agenda</h1>\\n      </div>\\n\\n      \\n<div
+        class=\\\"flex justify-between w-full mb-4\\\" data-controller=\\\"preserve-scroll\\\">\\n  <div
+        id=\\\"sessions_filters\\\" class=\\\"flex items-center overflow-x-scroll
+        gap-2 no-scrollbar\\\" data-preserve-scroll=\\\"\\\">\\n      <a class=\\\"flex
+        min-w-fit items-center justify-center px-4 py-2 font-medium rounded-full bg-white
+        text-red hover:bg-[#FAE7E8] focus:bg-[#FAE7E8] dark:bg-[#182027] dark:text-lightcolor
+        dark:hover:bg-gray-800 transition-all\\\" data-test-id=\\\"date_filter_Wed_17\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-17\\\">Wed,
+        17</a>\\n      <a class=\\\"flex min-w-fit items-center justify-center px-4
+        py-2 font-medium rounded-full bg-red dark:bg-off-red text-white\\\" data-test-id=\\\"date_filter_Thu_18\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-18\\\">Thu,
+        18</a>\\n      <a class=\\\"flex min-w-fit items-center justify-center px-4
+        py-2 font-medium rounded-full bg-white text-red hover:bg-[#FAE7E8] focus:bg-[#FAE7E8]
+        dark:bg-[#182027] dark:text-lightcolor dark:hover:bg-gray-800 transition-all\\\"
+        data-test-id=\\\"date_filter_Fri_19\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-19\\\">Fri,
+        19</a>\\n      <a class=\\\"flex min-w-fit items-center justify-center px-4
+        py-2 font-medium rounded-full bg-white text-red hover:bg-[#FAE7E8] focus:bg-[#FAE7E8]
+        dark:bg-[#182027] dark:text-lightcolor dark:hover:bg-gray-800 transition-all\\\"
+        data-test-id=\\\"date_filter_Sat_20\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&amp;starts_at=2025-09-20\\\">Sat,
+        20</a>\\n    <a class=\\\"flex min-w-fit items-center justify-center px-4
+        py-2 rounded-full font-medium bg-white text-red hover:bg-[#FAE7E8] focus:bg-[#FAE7E8]
+        dark:bg-[#182027] dark:text-lightcolor dark:hover:bg-gray-800 transition-all\\\"
+        data-test-id=\\\"date_filter_all\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true\\\">All
+        dates</a>\\n  </div>\\n\\n  <div class=\\\"flex items-center justify-center
+        ml-3 rounded-full min-w-[42px] min-h-[42px] bg-white fill-red hover:bg-[#FAE7E8]
+        focus:bg-[#FAE7E8] dark:bg-[#182027] dark:hover:bg-gray-800 dark:fill-off-red
+        transition-all\\\">\\n    <div class=\\\"relative\\\" data-controller=\\\"dropdown\\\">\\n      <button
+        type=\\\"button\\\" data-action=\\\"dropdown#toggle click@window-&gt;dropdown#hide\\\"
+        class=\\\"flex items-center justify-center p-3 rounded-full\\\" data-test-id=\\\"session_status_filters\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"18\\\" height=\\\"18\\\"
+        viewBox=\\\"0 0 18 13\\\" fill=\\\"inherit\\\">\\n  <path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M10.7691 4.61792C11.6701 4.59628 12.4749 4.04908
+        12.8263 3.21925C12.9013 3.25087 12.9815 3.2683 13.0629 3.27067H17.1771C17.6032
+        3.27067 17.9486 2.92534 17.9486 2.49935C17.9486 2.07336 17.6032 1.72802 17.1771
+        1.72802H13.1143C13.0699 1.72221 13.025 1.72221 12.9806 1.72802C12.686 0.570625
+        11.5523 -0.166973 10.3746 0.0324988C9.19695 0.231971 8.3695 1.30174 8.47256
+        2.49158C8.57563 3.68142 9.5747 4.59301 10.7691 4.58707V4.61792ZM10.7691 1.58404C11.1838
+        1.58404 11.52 1.92017 11.52 2.3348C11.52 2.74943 11.1838 3.08556 10.7691 3.08556C10.3545
+        3.08556 10.0183 2.74943 10.0183 2.3348C10.0183 1.92017 10.3545 1.58404 10.7691
+        1.58404Z\\\" fill=\\\"inherit\\\"></path>\\n  <path d=\\\"M0.771429 1.72802H6.94286C7.36891
+        1.72802 7.71429 2.07336 7.71429 2.49935C7.71429 2.92534 7.36891 3.27067 6.94286
+        3.27067H0.771429C0.34538 3.27067 0 2.92534 0 2.49935C0 2.07336 0.34538 1.72802
+        0.771429 1.72802Z\\\" fill=\\\"inherit\\\"></path>\\n  <path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M2.736 9.95549C3.05818 9.04436 3.91918 8.43473
+        4.88571 8.43341V8.41284C6.04884 8.41136 7.02895 9.28058 7.1663 10.4354C7.30366
+        11.5902 6.55477 12.6651 5.42374 12.9364C4.29271 13.2077 3.13762 12.5896 2.736
+        11.4981H0.771429C0.34538 11.4981 0 11.1528 0 10.7268C0 10.3008 0.34538 9.95549
+        0.771429 9.95549H2.736ZM4.1361 10.7809C4.14317 11.19 4.47652 11.5181 4.88571
+        11.5187V11.4776C5.3004 11.4776 5.63657 11.1414 5.63657 10.7268C5.61415 10.3183
+        5.26871 10.0029 4.85978 10.0177C4.45086 10.0324 4.12903 10.3718 4.1361 10.7809Z\\\"
+        fill=\\\"inherit\\\"></path>\\n  <path d=\\\"M9 9.95549H17.2286C17.6546 9.95549
+        18 10.3008 18 10.7268C18 11.1528 17.6546 11.4981 17.2286 11.4981H9C8.57395
+        11.4981 8.22857 11.1528 8.22857 10.7268C8.22857 10.3008 8.57395 9.95549 9
+        9.95549Z\\\" fill=\\\"inherit\\\"></path>\\n</svg>\\n\\n      </button>\\n\\n      <div
+        data-dropdown-target=\\\"menu\\\" class=\\\"absolute right-0 hidden transition
+        origin-top-right transform\\\" data-transition-enter-from=\\\"opacity-0 scale-95\\\"
+        data-transition-enter-to=\\\"opacity-100 scale-100\\\" data-transition-leave-from=\\\"opacity-100
+        scale-100\\\" data-transition-leave-to=\\\"opacity-0 scale-95\\\">\\n        <div
+        class=\\\"pt-2 pb-2 bg-white dark:bg-[#131b21] rounded-lg shadow-[0_10px_50px_0_rgba(0,0,0,0.40)]
+        flex-col inline-flex absolute top-4 right-[-8px] right-0 w-40 max-w-40\\\">\\n          <form
+        class=\\\"grid\\\" action=\\\"/web/20251214035507/https://app.euruko.org/sessions\\\"
+        accept-charset=\\\"UTF-8\\\" method=\\\"get\\\">\\n            <input value=\\\"2025-09-18\\\"
+        autocomplete=\\\"off\\\" type=\\\"hidden\\\" name=\\\"starts_at\\\" id=\\\"starts_at\\\">\\n\\n              <div
+        class=\\\"inline-flex items-center self-stretch px-4 py-2 gap-2\\\">\\n                <input
+        class=\\\"w-4 h-4 rounded text-red dark:text-off-red\\\" skip_base_styling=\\\"true\\\"
+        type=\\\"checkbox\\\" value=\\\"1\\\" name=\\\"live\\\" id=\\\"live\\\">\\n                <div
+        class=\\\"text-gray-800\\\">\\n                  <label class=\\\"text-base
+        font-medium dark:text-lightcolor\\\" for=\\\"live\\\">\\n                    Live\\n</label>                </div>\\n              </div>\\n              <div
+        class=\\\"inline-flex items-center self-stretch px-4 py-2 gap-2\\\">\\n                <input
+        class=\\\"w-4 h-4 rounded text-red dark:text-off-red\\\" skip_base_styling=\\\"true\\\"
+        type=\\\"checkbox\\\" value=\\\"1\\\" name=\\\"starting_soon\\\" id=\\\"starting_soon\\\">\\n                <div
+        class=\\\"text-gray-800\\\">\\n                  <label class=\\\"text-base
+        font-medium dark:text-lightcolor\\\" for=\\\"starting_soon\\\">\\n                    Starting
+        soon\\n</label>                </div>\\n              </div>\\n              <div
+        class=\\\"inline-flex items-center self-stretch px-4 py-2 gap-2\\\">\\n                <input
+        class=\\\"w-4 h-4 rounded text-red dark:text-off-red\\\" skip_base_styling=\\\"true\\\"
+        type=\\\"checkbox\\\" value=\\\"1\\\" name=\\\"past\\\" id=\\\"past\\\">\\n                <div
+        class=\\\"text-gray-800\\\">\\n                  <label class=\\\"text-base
+        font-medium dark:text-lightcolor\\\" for=\\\"past\\\">\\n                    Past\\n</label>                </div>\\n              </div>\\n            <div
+        class=\\\"h-6 px-2.5 py-4 rounded justify-center items-center gap-2.5 inline-flex\\\">\\n              <div
+        class=\\\"text-lg italic font-black underline text-red dark:text-off-red\\\">\\n                <input
+        type=\\\"submit\\\" name=\\\"\\\" value=\\\"Apply\\\" class=\\\"text-lg text-red
+        dark:text-off-red italic underline font-black hover:cursor-pointer\\\" data-test-id=\\\"session_status_filters_submit\\\"
+        data-disable-with=\\\"Apply\\\">\\n              </div>\\n            </div>\\n</form>        </div>\\n      </div>\\n    </div>\\n</div></div>\\n\\n\\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col w-full h-full mb-[12rem]\\\">\\n          <div class=\\\"sticky
+        z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b] top-safe-area-no-filters\\\">\\n            <div
+        class=\\\"pt-2 pb-4 text-2xl font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-08-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  08:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/registration-welcome-coffee\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_1\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/registration-welcome-coffee\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Registration
+        / Welcome Coffee\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          08:30
+        to 09:30\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Social Area</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-09-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  09:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/opening-ceremony\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_2\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/opening-ceremony\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Opening
+        Ceremony\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          09:30
+        to 10:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-10-00\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  10:00\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/keynote\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_3\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/keynote\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Keynote\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_1\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/yukihiro-matz-matsumoto\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MSwicHVyIjoiYmxvYl9pZCJ9fQ==--323c74c3b6e96ea39a20b5c85ab5d34f31f6a5f0/20.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Yukihiro \\\"Matz\\\" Matsumoto</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\"></p>\\n</div></a>          <div
+        class=\\\"my-3 border-l last:hidden\\\"></div>\\n      </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          10:00
+        to 10:50\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-11-00\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  11:00\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/introducing-reactionview-a-new-actionview-compatible-erb-engine\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_4\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/introducing-reactionview-a-new-actionview-compatible-erb-engine\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Introducing
+        ReActionView:  A new ActionView-Compatible ERB Engine\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_8\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/marco-roth\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OCwicHVyIjoiYmxvYl9pZCJ9fQ==--d3f4049e1944cf36ce123bf1c2bcf66ee2c8b109/7.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Marco Roth</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Full-Stack
+        Ruby on Rails Developer</p>\\n</div></a>          <div class=\\\"my-3 border-l
+        last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex flex-col\\\">\\n\\n      <div
+        class=\\\"flex items-center mb-2\\\">\\n        <svg xmlns=\\\"http://www.w3.org/2000/svg\\\"
+        width=\\\"16\\\" height=\\\"16\\\" viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\"
+        class=\\\"w-[16px] h-[16px] mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g
+        id=\\\"Interface essential/Calendar\\\">\\n<g id=\\\"Icon\\\">\\n<path d=\\\"M10.9997
+        5.43984H4.99967C4.72353 5.43984 4.49967 5.66369 4.49967 5.93984C4.49967 6.21598
+        4.72353 6.43984 4.99967 6.43984H10.9997C11.2758 6.43984 11.4997 6.21598 11.4997
+        5.93984C11.4997 5.66369 11.2758 5.43984 10.9997 5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174
+        2.37984 14.6663 3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465
+        11.333 15.0465H4.66634C3.78229 15.0465 2.93444 14.6953 2.30932 14.0702C1.6842
+        13.4451 1.33301 12.5972 1.33301 11.7132V5.71317C1.33301 3.87222 2.82539 2.37984
+        4.66634 2.37984H4.72634V1.1665C4.72634 0.890362 4.9502 0.666504 5.22634 0.666504C5.50248
+        0.666504 5.72634 0.890362 5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362
+        10.4835 0.666504 10.7597 0.666504C11.0358 0.666504 11.2597 0.890362 11.2597
+        1.1665V2.37984ZM11.333 14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663
+        4.42451 12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451
+        2.33301 5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          11:00
+        to 11:30\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-11-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  11:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/postgres-partitioning-best-practices\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_5\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/postgres-partitioning-best-practices\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Postgres
+        Partitioning  Best Practices \\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_17\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/karen-jex\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTcsInB1ciI6ImJsb2JfaWQifX0=--5a91192563c93b79e86cb5f190ffcce0cd94bcf4/16.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Karen Jex</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">postgreSQL
+        Contributor | Database expert | Speaker | Solutions Architect at Snowflake</p>\\n</div></a>          <div
+        class=\\\"my-3 border-l last:hidden\\\"></div>\\n      </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          11:30
+        to 12:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-12-00\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  12:00\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/lunch\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_6\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/lunch\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Lunch
+        break\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div class=\\\"flex
+        flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          12:00
+        to 13:30\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Viana do
+        Castelo City</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-13-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  13:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/rewrite-with-confidence-validating-business-rules-through-isolated-testing\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_21\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/rewrite-with-confidence-validating-business-rules-through-isolated-testing\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Rewrite
+        with confidence: validating business rules through isolated testing\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_12\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/szymon-fiedler\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTIsInB1ciI6ImJsb2JfaWQifX0=--996e4f3ac99ca0624f1890334106a71fcafe0daa/11.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Szymon Fiedler</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\"> Senior
+        Software Engineer at Arkency </p>\\n</div></a>          <div class=\\\"my-3
+        border-l last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex
+        flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          13:30
+        to 14:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-14-05\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  14:05\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/the-hidden-value-of-niche-open-source-projects\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_8\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/the-hidden-value-of-niche-open-source-projects\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          The
+        hidden value of niche open-source projects\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_15\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/remy-hannequin\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTUsInB1ciI6ImJsb2JfaWQifX0=--6a879ac84e67f80996a68f436faaf7e08b743a35/14.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Rémy Hannequin </h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Senior
+        developer at thoughtbot France</p>\\n</div></a>          <div class=\\\"my-3
+        border-l last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex
+        flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          14:05
+        to 14:35\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-14-45\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  14:45\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/how-a-ruby-profiler-works-stackprof-under-a-microscope\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_9\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/how-a-ruby-profiler-works-stackprof-under-a-microscope\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          How
+        a Ruby profiler works: Stackprof under a microscope\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_5\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/ivo-anjo\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NSwicHVyIjoiYmxvYl9pZCJ9fQ==--c02d0e716e2a40120f263dc86d79088c7fafb26b/4.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Ivo Anjo</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Staff Software
+        Engineer at Datadog</p>\\n</div></a>          <div class=\\\"my-3 border-l
+        last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex flex-col\\\">\\n\\n      <div
+        class=\\\"flex items-center mb-2\\\">\\n        <svg xmlns=\\\"http://www.w3.org/2000/svg\\\"
+        width=\\\"16\\\" height=\\\"16\\\" viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\"
+        class=\\\"w-[16px] h-[16px] mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g
+        id=\\\"Interface essential/Calendar\\\">\\n<g id=\\\"Icon\\\">\\n<path d=\\\"M10.9997
+        5.43984H4.99967C4.72353 5.43984 4.49967 5.66369 4.49967 5.93984C4.49967 6.21598
+        4.72353 6.43984 4.99967 6.43984H10.9997C11.2758 6.43984 11.4997 6.21598 11.4997
+        5.93984C11.4997 5.66369 11.2758 5.43984 10.9997 5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174
+        2.37984 14.6663 3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465
+        11.333 15.0465H4.66634C3.78229 15.0465 2.93444 14.6953 2.30932 14.0702C1.6842
+        13.4451 1.33301 12.5972 1.33301 11.7132V5.71317C1.33301 3.87222 2.82539 2.37984
+        4.66634 2.37984H4.72634V1.1665C4.72634 0.890362 4.9502 0.666504 5.22634 0.666504C5.50248
+        0.666504 5.72634 0.890362 5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362
+        10.4835 0.666504 10.7597 0.666504C11.0358 0.666504 11.2597 0.890362 11.2597
+        1.1665V2.37984ZM11.333 14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663
+        4.42451 12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451
+        2.33301 5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          14:45
+        to 15:15\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-15-20\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  15:20\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/conquering-massive-traffic-spikes-in-ruby-applications-with-pitchfork\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_10\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/conquering-massive-traffic-spikes-in-ruby-applications-with-pitchfork\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Conquering
+        Massive Traffic Spikes in Ruby Applications with Pitchfork\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_18\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/sangyong-sim-shia\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MTgsInB1ciI6ImJsb2JfaWQifX0=--b8da791c0f19571a1bbc1c97ee512e4191822030/17.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Sangyong Sim \\\"Shia\\\"</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Software
+        Engineer</p>\\n</div></a>          <div class=\\\"my-3 border-l last:hidden\\\"></div>\\n      </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          15:20
+        to 15:50\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-15-50\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  15:50\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/coffee-break\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_11\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/coffee-break\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Coffee
+        Break\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div class=\\\"flex
+        flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          15:50
+        to 16:40\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Social Area</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-16-40\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  16:40\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/building-interactive-ruby-gem-tutorials-with-wasm-yes-right-in-the-browser\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_12\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/building-interactive-ruby-gem-tutorials-with-wasm-yes-right-in-the-browser\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Building
+        interactive Ruby gem tutorials with Wasm – yes,  right in the browser!\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_3\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/albert-pazderin\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MywicHVyIjoiYmxvYl9pZCJ9fQ==--82fc3301d6a990093b039a20f071b4a6cc45118e/2.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Albert Pazderin</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Backend
+        developer at Evil Martians</p>\\n</div></a>          <div class=\\\"my-3 border-l
+        last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex flex-col\\\">\\n\\n      <div
+        class=\\\"flex items-center mb-2\\\">\\n        <svg xmlns=\\\"http://www.w3.org/2000/svg\\\"
+        width=\\\"16\\\" height=\\\"16\\\" viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\"
+        class=\\\"w-[16px] h-[16px] mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g
+        id=\\\"Interface essential/Calendar\\\">\\n<g id=\\\"Icon\\\">\\n<path d=\\\"M10.9997
+        5.43984H4.99967C4.72353 5.43984 4.49967 5.66369 4.49967 5.93984C4.49967 6.21598
+        4.72353 6.43984 4.99967 6.43984H10.9997C11.2758 6.43984 11.4997 6.21598 11.4997
+        5.93984C11.4997 5.66369 11.2758 5.43984 10.9997 5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174
+        2.37984 14.6663 3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465
+        11.333 15.0465H4.66634C3.78229 15.0465 2.93444 14.6953 2.30932 14.0702C1.6842
+        13.4451 1.33301 12.5972 1.33301 11.7132V5.71317C1.33301 3.87222 2.82539 2.37984
+        4.66634 2.37984H4.72634V1.1665C4.72634 0.890362 4.9502 0.666504 5.22634 0.666504C5.50248
+        0.666504 5.72634 0.890362 5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362
+        10.4835 0.666504 10.7597 0.666504C11.0358 0.666504 11.2597 0.890362 11.2597
+        1.1665V2.37984ZM11.333 14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663
+        4.42451 12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451
+        2.33301 5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          16:40
+        to 17:10\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-17-15\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  17:15\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/roasting-code-for-fun-profit-with-structured-ai-workflows\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_14\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/roasting-code-for-fun-profit-with-structured-ai-workflows\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Roasting
+        Code for Fun &amp; Profit with Structured AI Workflows\\n        </h3>\\n      </a>\\n      \\n    </div>\\n      <div
+        class=\\\"flex w-full mb-2 overflow-x-auto overflow-y-hidden no-scrollbar\\\">\\n          <a
+        class=\\\"z-10 inline-flex items-center py-2 px-4 rounded-lg min-w-fit group
+        hover:bg-[#FAE7E8]/[0.5] focus:bg-[#FAE7E8]/[0.5] dark:hover:bg-[#182027]
+        dark:focus:bg-[#182027]/[0.5] transition-all\\\" data-test-id=\\\"speaker_2\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/speakers/obie-fernandez\\\">\\n              <div
+        class=\\\"flex flex-col items-center justify-center w-10 h-10 bg-center bg-no-repeat
+        bg-cover rounded-full min-w-10 min-h-10\\\" style=\\\"background-image: url(/web/20251214035507im_/https://app.euruko.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MiwicHVyIjoiYmxvYl9pZCJ9fQ==--1aa5c630dd8075eaabbd779d43c9a64fd0e7d14a/1.png)\\\">\\n              </div>\\n\\n            <div
+        class=\\\"flex flex-col ml-2\\\">\\n              <h2 class=\\\"text-sm font-medium
+        group-hover:text-red group-focus:text-red dark:text-[#798691] dark:group-hover:text-white
+        dark:group-focus:text-white transition-all\\\">Obie Fernandez</h2>\\n              <p
+        class=\\\"text-sm font-light text-gray-400 dark:text-[#798691]\\\">Principal
+        Engineer at Shopify</p>\\n</div></a>          <div class=\\\"my-3 border-l
+        last:hidden\\\"></div>\\n      </div>\\n\\n    <div class=\\\"flex flex-col\\\">\\n\\n      <div
+        class=\\\"flex items-center mb-2\\\">\\n        <svg xmlns=\\\"http://www.w3.org/2000/svg\\\"
+        width=\\\"16\\\" height=\\\"16\\\" viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\"
+        class=\\\"w-[16px] h-[16px] mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g
+        id=\\\"Interface essential/Calendar\\\">\\n<g id=\\\"Icon\\\">\\n<path d=\\\"M10.9997
+        5.43984H4.99967C4.72353 5.43984 4.49967 5.66369 4.49967 5.93984C4.49967 6.21598
+        4.72353 6.43984 4.99967 6.43984H10.9997C11.2758 6.43984 11.4997 6.21598 11.4997
+        5.93984C11.4997 5.66369 11.2758 5.43984 10.9997 5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174
+        2.37984 14.6663 3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465
+        11.333 15.0465H4.66634C3.78229 15.0465 2.93444 14.6953 2.30932 14.0702C1.6842
+        13.4451 1.33301 12.5972 1.33301 11.7132V5.71317C1.33301 3.87222 2.82539 2.37984
+        4.66634 2.37984H4.72634V1.1665C4.72634 0.890362 4.9502 0.666504 5.22634 0.666504C5.50248
+        0.666504 5.72634 0.890362 5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362
+        10.4835 0.666504 10.7597 0.666504C11.0358 0.666504 11.2597 0.890362 11.2597
+        1.1665V2.37984ZM11.333 14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663
+        4.42451 12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451
+        2.33301 5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          17:15
+        to 17:45\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-17-45\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  17:45\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/party-dj-sunset-karaoke\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_15\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/party-dj-sunset-karaoke\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Verde
+        de Honra - Starts the party \\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          17:45
+        to 22:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Social Area</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-18-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  18:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/dj-sunset-party-by-the-river\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_39\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/dj-sunset-party-by-the-river\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          DJ
+        Sunset Party — By the River\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          18:30
+        to 22:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Social Area</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n          <div
+        class=\\\"sticky z-20 flex items-center mb-5 bg-grey-50 dark:bg-[#0f171b]
+        top-safe-area-no-filters\\\">\\n            <div class=\\\"pt-2 pb-4 text-2xl
+        font-bold text-grey-800 text-nowrap dark:text-lightcolor\\\">\\n              <a
+        id=\\\"2025-09-18-19-30\\\" class=\\\"scroll-mt-[240px]\\\">\\n                  19:30\\n              </a>\\n            </div>\\n            <div
+        class=\\\"w-full mx-2 mb-1 border-b dark:border-gray-600\\\"></div>\\n            <div
+        class=\\\"mb-1 text-gray-400 text-nowrap\\\">1 Session</div>\\n</div>            \\n<div
+        class=\\\"relative flex flex-col w-full mb-4 bg-white dark:bg-[#131b21] rounded-lg\\\">\\n  <a
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/karaoke\\\"
+        class=\\\"absolute top-0 bottom-0 left-0 right-0 z-0\\\" data-test-id=\\\"session_40\\\"></a>\\n\\n  \\n  <div
+        class=\\\"inline-flex items-center justify-center h-8 px-4 py-6 rounded-t-lg
+        bg-bluegray-50 dark:bg-[#182027]\\\">\\n    <div class=\\\"flex items-center
+        justify-center h-4 gap-2 grow basis-0\\\">\\n      <span class=\\\"relative
+        flex w-4 h-4\\\">\\n        <span class=\\\"w-4 h-4 rounded-full bg-bluegray-200\\\"></span>\\n      </span>\\n      <span
+        class=\\\"w-full text-xs dark:text-[#798691]\\\">Session is over.</span>\\n    </div>\\n  </div>\\n\\n\\n  <div
+        class=\\\"p-5\\\">\\n    <div class=\\\"flex flex-row justify-between w-full
+        mb-2 grow\\\">\\n      <a href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions/karaoke\\\"
+        class=\\\"z-10 group\\\">\\n        <h3 class=\\\"inline-block text-xl italic
+        font-bold text-red dark:text-off-red group-hover:underline group-focus:underline\\\">\\n          Karaoke\\n        </h3>\\n      </a>\\n      \\n    </div>\\n\\n    <div
+        class=\\\"flex flex-col\\\">\\n\\n      <div class=\\\"flex items-center mb-2\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967
+        5.66369 4.49967 5.93984C4.49967 6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758
+        6.43984 11.4997 6.21598 11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997
+        5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174 2.37984 14.6663
+        3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465 11.333 15.0465H4.66634C3.78229
+        15.0465 2.93444 14.6953 2.30932 14.0702C1.6842 13.4451 1.33301 12.5972 1.33301
+        11.7132V5.71317C1.33301 3.87222 2.82539 2.37984 4.66634 2.37984H4.72634V1.1665C4.72634
+        0.890362 4.9502 0.666504 5.22634 0.666504C5.50248 0.666504 5.72634 0.890362
+        5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362 10.4835 0.666504 10.7597
+        0.666504C11.0358 0.666504 11.2597 0.890362 11.2597 1.1665V2.37984ZM11.333
+        14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663 4.42451
+        12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451 2.33301
+        5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span class=\\\"font-sans
+        text-sm text-grey-600 dark:text-[#798691]\\\">\\n          Sep 18 -\\n          19:30
+        to 22:00\\n        </span>\\n      </div>\\n\\n      <div class=\\\"flex items-center\\\">\\n        <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"w-[16px] h-[16px]
+        mr-1 fill-grey-600 dark:fill-[#798691]\\\">\\n<g id=\\\"Interface essential/Location\\\">\\n<g
+        id=\\\"Icon\\\">\\n<path d=\\\"M11.213 10.3235C10.9698 10.2013 10.6734 10.2961
+        10.5463 10.5368C10.4289 10.7821 10.526 11.0763 10.7663 11.2035C11.353 11.5035
+        11.6863 11.8702 11.6863 12.2235C11.6863 12.9768 10.113 13.8168 8.00634 13.8168C5.89967
+        13.8168 4.31967 12.9835 4.31967 12.2502C4.31967 11.9035 4.65301 11.5302 5.23967
+        11.2302C5.41561 11.1596 5.53653 10.9956 5.55194 10.8067C5.56735 10.6178 5.47461
+        10.4364 5.31243 10.3383C5.15026 10.2402 4.94654 10.2422 4.78634 10.3435C3.97694
+        10.6486 3.41266 11.3888 3.33301 12.2502C3.33301 13.7302 5.33301 14.8435 7.99967
+        14.8435C10.6663 14.8435 12.6663 13.7302 12.6663 12.2502C12.594 11.3814 12.0285
+        10.6316 11.213 10.3235Z\\\" fill=\\\"inherit\\\"></path>\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M7.49967 12.5435V9.66348C5.30427 9.39898 3.69469
+        7.47036 3.82718 5.26305C3.95968 3.05574 5.78839 1.3335 7.99967 1.3335C10.211
+        1.3335 12.0397 3.05574 12.1722 5.26305C12.3047 7.47036 10.6951 9.39898 8.49967
+        9.66348V12.5435C8.49967 12.8196 8.27582 13.0435 7.99967 13.0435C7.72353 13.0435
+        7.49967 12.8196 7.49967 12.5435ZM10.9492 4.29425C10.4542 3.10287 9.28977 2.32745
+        7.99968 2.33015C6.24493 2.33382 4.82334 3.75541 4.81968 5.51015C4.81698 6.80025
+        5.5924 7.96469 6.78378 8.45963C7.97515 8.95457 9.34741 8.68236 10.2596 7.77012C11.1719
+        6.85789 11.4441 5.48563 10.9492 4.29425Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        d=\\\"M6.39301 6.25015C6.66915 6.25015 6.89301 6.02629 6.89301 5.75015C6.89301
+        4.98432 7.51384 4.36348 8.27968 4.36348C8.55582 4.36348 8.77968 4.13963 8.77968
+        3.86348C8.77968 3.58734 8.55582 3.36348 8.27968 3.36348C7.64492 3.36525 7.03687
+        3.6191 6.58928 4.06919C6.1417 4.51927 5.89124 5.12873 5.89301 5.76348C5.89477
+        5.89433 5.94843 6.01911 6.0422 6.11038C6.13597 6.20165 6.26217 6.25193 6.39301
+        6.25015Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n        <span
+        class=\\\"font-sans text-sm text-grey-600 dark:text-[#798691]\\\">Main Stage</span>\\n      </div>\\n    </div>\\n  </div>\\n</div>\\n\\n    </div>\\n  </div>\\n</div>\\n\\n\\n    </main>\\n\\n      <div
+        class=\\\"fixed bottom-0 z-40 flex flex-row items-center justify-center w-full
+        pt-2 bg-white border-t border-b dark:bg-[#182027] pb-safe-area-1 border-grey-200
+        dark:border-0\\\">\\n  <div class=\\\"flex flex-row items-center justify-around
+        w-full max-w-screen-sm text-[11px]\\\">\\n    <a class=\\\"text-red dark:text-lightcolor
+        flex flex-col items-center justify-center\\\" data-test-id=\\\"sessions_nav\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions\\\">\\n      <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"fill-red w-6 h-6
+        dark:fill-white\\\">\\n<g id=\\\"Interface essential/Calendar\\\">\\n<g id=\\\"Icon\\\">\\n<path
+        d=\\\"M10.9997 5.43984H4.99967C4.72353 5.43984 4.49967 5.66369 4.49967 5.93984C4.49967
+        6.21598 4.72353 6.43984 4.99967 6.43984H10.9997C11.2758 6.43984 11.4997 6.21598
+        11.4997 5.93984C11.4997 5.66369 11.2758 5.43984 10.9997 5.43984Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.2597 2.37984H11.333C13.174
+        2.37984 14.6663 3.87222 14.6663 5.71317V11.7132C14.6663 13.5541 13.174 15.0465
+        11.333 15.0465H4.66634C3.78229 15.0465 2.93444 14.6953 2.30932 14.0702C1.6842
+        13.4451 1.33301 12.5972 1.33301 11.7132V5.71317C1.33301 3.87222 2.82539 2.37984
+        4.66634 2.37984H4.72634V1.1665C4.72634 0.890362 4.9502 0.666504 5.22634 0.666504C5.50248
+        0.666504 5.72634 0.890362 5.72634 1.1665V2.37984H10.2597V1.1665C10.2597 0.890362
+        10.4835 0.666504 10.7597 0.666504C11.0358 0.666504 11.2597 0.890362 11.2597
+        1.1665V2.37984ZM11.333 14.0465C12.6217 14.0465 13.6663 13.0018 13.6663 11.7132V5.71317C13.6663
+        4.42451 12.6217 3.37984 11.333 3.37984H4.66634C3.37768 3.37984 2.33301 4.42451
+        2.33301 5.71317V11.7132C2.33301 13.0018 3.37768 14.0465 4.66634 14.0465H11.333Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n      Agenda\\n</a>\\n    <a
+        class=\\\"text-grey-400 flex flex-col items-center justify-center\\\" data-test-id=\\\"schedule_nav\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/schedule\\\">\\n      <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"16\\\" height=\\\"16\\\"
+        viewBox=\\\"0 0 16 16\\\" fill=\\\"inherit\\\" class=\\\"fill-grey-400 w-6
+        h-6\\\">\\n<g id=\\\"Interface essential/Clock\\\">\\n<g id=\\\"Icon\\\">\\n<path
+        d=\\\"M5.76634 5.06016C5.56933 4.87659 5.26234 4.88201 5.07193 5.07242C4.88152
+        5.26282 4.8761 5.56982 5.05967 5.76683L7.57968 8.28683V11.4135C7.57968 11.6896
+        7.80353 11.9135 8.07967 11.9135C8.35582 11.9135 8.57967 11.6896 8.57967 11.4135V8.08016C8.57956
+        7.9476 8.5268 7.82051 8.43301 7.72683L5.76634 5.06016Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M6.66634 1.3335H9.49301C10.9075
+        1.3335 12.264 1.8954 13.2642 2.89559C14.2644 3.89579 14.8263 5.25234 14.8263
+        6.66683V9.4935C14.8263 12.439 12.4385 14.8268 9.49301 14.8268H6.66634C3.72082
+        14.8268 1.33301 12.439 1.33301 9.4935V6.66683C1.33301 3.72131 3.72082 1.3335
+        6.66634 1.3335ZM9.49301 13.8268C11.8847 13.8232 13.8227 11.8852 13.8263 9.4935V6.66683C13.8227
+        4.27512 11.8847 2.33717 9.49301 2.3335H6.66634C4.27463 2.33717 2.33668 4.27512
+        2.33301 6.66683V9.4935C2.33668 11.8852 4.27463 13.8232 6.66634 13.8268H9.49301Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n      My Schedule\\n</a>\\n    <a
+        class=\\\"text-grey-400 flex flex-col items-center justify-center\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/profile\\\">\\n      <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\"
+        viewBox=\\\"0 0 24 24\\\" fill=\\\"inherit\\\" class=\\\"fill-grey-400 w-6
+        h-6\\\">\\n<g id=\\\"User/Person\\\">\\n<g id=\\\"Icon\\\">\\n<path fill-rule=\\\"evenodd\\\"
+        clip-rule=\\\"evenodd\\\" d=\\\"M19.5801 16.71L19.8201 17.85C20.0475 18.8356
+        19.823 19.8713 19.2077 20.6742C18.5925 21.4771 17.6509 21.9633 16.6401 22H7.36009C6.34927
+        21.9633 5.40766 21.4771 4.79244 20.6742C4.17722 19.8713 3.95266 18.8356 4.18009
+        17.85L4.42009 16.71C4.69613 15.1668 6.02272 14.0327 7.59009 14H16.4101C17.9775
+        14.0327 19.3041 15.1668 19.5801 16.71ZM16.6401 20.49C17.1479 20.4841 17.6258
+        20.2489 17.9401 19.85V19.86C18.3258 19.3762 18.4761 18.7458 18.3501 18.14L18.1101
+        17C17.9769 16.1552 17.2647 15.5226 16.4101 15.49H7.5901C6.73546 15.5226 6.02326
+        16.1552 5.8901 17L5.6501 18.14C5.52725 18.7426 5.67736 19.3687 6.0601 19.85C6.37443
+        20.2489 6.85231 20.4841 7.3601 20.49H16.6401Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M12.5001 12H11.5001C9.29094
+        12 7.50008 10.2092 7.50008 8.00001V5.36001C7.49741 4.46807 7.85056 3.61189
+        8.48126 2.98119C9.11196 2.35049 9.96814 1.99735 10.8601 2.00001H13.1401C14.032
+        1.99735 14.8882 2.35049 15.5189 2.98119C16.1496 3.61189 16.5027 4.46807 16.5001
+        5.36001V8.00001C16.5001 10.2092 14.7092 12 12.5001 12ZM10.8601 3.50002C9.83283
+        3.50002 9.00008 4.33277 9.00008 5.36001V8.00001C9.00008 9.38073 10.1194 10.5
+        11.5001 10.5H12.5001C13.8808 10.5 15.0001 9.38073 15.0001 8.00001V5.36001C15.0001
+        4.86671 14.8041 4.39361 14.4553 4.0448C14.1065 3.69598 13.6334 3.50002 13.1401
+        3.50002H10.8601Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n      Profile\\n</a>\\n    <a
+        class=\\\"text-grey-400 relative flex flex-col items-center justify-center\\\"
+        href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/notifications\\\">\\n      <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"25\\\" height=\\\"24\\\"
+        viewBox=\\\"0 0 25 24\\\" fill=\\\"inherit\\\" class=\\\"fill-grey-400 w-6
+        h-6\\\">\\n<path fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M21.7081
+        15.48C21.2639 15.1 21.0081 14.5446 21.0081 13.96V9.14C21.0081 5.19 17.4281
+        2 13.0081 2C8.58813 2 5.00813 5.19 5.00813 9.14V13.96C5.00817 14.5446 4.75241
+        15.1 4.30813 15.48C2.79813 16.83 3.86813 19.13 6.00813 19.13H9.80813C10.293
+        20.4804 11.5733 21.3811 13.0081 21.3811C14.4429 21.3811 15.7233 20.4804 16.2081
+        19.13H20.0081C22.1481 19.13 23.2181 16.83 21.7081 15.48ZM13.0081 19.88C12.4129
+        19.8778 11.852 19.601 11.4881 19.13H14.4881C14.1358 19.5936 13.5903 19.87
+        13.0081 19.88ZM20.0181 17.63C20.3817 17.6629 20.7278 17.468 20.8881 17.14C20.966
+        16.9424 20.8951 16.7173 20.7181 16.6C19.9647 15.9279 19.5291 14.9696 19.5181
+        13.96V9.14C19.5181 6.03 16.5981 3.5 13.0181 3.5C9.43813 3.5 6.51813 6.03 6.51813
+        9.14V13.96C6.50716 14.9696 6.07157 15.9279 5.31813 16.6C5.13745 16.7144 5.06221
+        16.9401 5.13813 17.14C5.29843 17.468 5.64457 17.6629 6.00813 17.63H20.0181Z\\\"
+        fill=\\\"inherit\\\"></path>\\n</svg>\\n\\n      Notifications\\n</a>\\n    <a
+        class=\\\"text-grey-400 flex flex-col items-center justify-center\\\" href=\\\"https://web.archive.org/web/20251214035507/https://app.euruko.org/about\\\">\\n      <svg
+        xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"25\\\" height=\\\"24\\\"
+        viewBox=\\\"0 0 25 24\\\" fill=\\\"inherit\\\" class=\\\"fill-grey-400 w-6
+        h-6\\\">\\n<g id=\\\"Interface essential/Information-circle\\\">\\n<g id=\\\"Icon\\\">\\n<path
+        d=\\\"M11.9912 8.04C11.6076 8.08421 11.3182 8.40894 11.3182 8.795C11.3182
+        9.18106 11.6076 9.50579 11.9912 9.55C12.1927 9.5528 12.3866 9.47329 12.5282
+        9.32985C12.6697 9.18641 12.7466 8.99145 12.7412 8.79C12.7358 8.37804 12.4031
+        8.04539 11.9912 8.04Z\\\" fill=\\\"inherit\\\"></path>\\n<path d=\\\"M11.9912
+        10.92C11.7914 10.9173 11.5991 10.9954 11.4578 11.1367C11.3166 11.2779 11.2385
+        11.4703 11.2412 11.67V14.79C11.2412 15.2042 11.577 15.54 11.9912 15.54C12.4054
+        15.54 12.7412 15.2042 12.7412 14.79V11.69C12.7466 11.4876 12.6699 11.2917
+        12.5287 11.1467C12.3875 11.0017 12.1936 10.9199 11.9912 10.92Z\\\" fill=\\\"inherit\\\"></path>\\n<path
+        fill-rule=\\\"evenodd\\\" clip-rule=\\\"evenodd\\\" d=\\\"M11.9912 2C6.58659
+        2.00551 2.20668 6.38542 2.20117 11.79C2.20117 17.1969 6.5843 21.58 11.9912
+        21.58C17.398 21.58 21.7812 17.1969 21.7812 11.79C21.7757 6.38542 17.3958 2.00551
+        11.9912 2ZM11.9912 20.08C7.41273 20.08 3.70117 16.3684 3.70117 11.79C3.70117
+        7.21156 7.41273 3.5 11.9912 3.5C16.5696 3.5 20.2812 7.21156 20.2812 11.79C20.2757
+        16.3662 16.5673 20.0745 11.9912 20.08Z\\\" fill=\\\"inherit\\\"></path>\\n</g>\\n</g>\\n</svg>\\n\\n      About\\n</a>  </div>\\n</div>\\n\\n\\n  \\n\\n\\n</body></html>\\n<!--\\n     FILE
+        ARCHIVED ON 03:55:07 Dec 14, 2025 AND RETRIEVED FROM THE\\n     INTERNET ARCHIVE
+        ON 22:45:09 Oct 04, 2026.\\n     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT
+        INTERNET ARCHIVE.\\n\\n     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT
+        (17 U.S.C.\\n     SECTION 108(a)(3)).\\n-->\\n<!--\\nplayback timings (ms):\\n  captures_list:
+        0.367\\n  exclusion.robots: 0.045\\n  exclusion.robots.policy: 0.024\\n  esindex:
+        0.005\\n  cdx.remote: 95.025\\n  LoadShardBlock: 1055.78 (3)\\n  PetaboxLoader3.datanode:
+        1026.631 (5)\\n  PetaboxLoader3.resolve: 51.695 (2)\\n  load_resource: 45.203\\n  nav:
+        0.185 (6)\\n-->\",\"hints\":\"This is just one day of the event\"}"}],"system":"You
+        are implementing an API for a command named Azimux::RubyeventsToolbox::ExtractAndMassageUsefulText
+        which has the following description:\n\nAnalyzes the raw_input_text and strips
+        out HTML tags and javascript and even irrelevant text so that what remains
+        is ideally the minimum required todetermine all of the info about the event
+        or day of the event and the talks that occurred. If helpful, some additional
+        text gleaned from the markup/javascript/metadata/whatever will be added.\n\nHere
+        is the inputs JSON schema for the data you will receive:\n\n{\"type\":\"object\",\"required\":[\"raw_input_text\"],\"properties\":{\"raw_input_text\":{\"type\":\"string\"},\"hints\":{\"type\":[\"string\",\"null\"]}}}\n\nHere
+        is the result JSON schema:\n\n{\"type\":\"string\"}\n\nYou will receive 1
+        message containing only JSON data according to the inputs JSON schema above\nand
+        you will generate a JSON response that is a valid response according to the
+        result JSON schema above.\n\nYou will reply with nothing more than the JSON
+        you''ve generated so that the calling code\ncan successfully parse your answer.\n"}'
+    headers:
+      Content-Type:
+      - application/json
+      X-Api-Key:
+      - "<SCRUBBED_ANTHROPIC_API_KEY>"
+      Anthropic-Version:
+      - '2023-06-01'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 05 Oct 2026 21:52:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Anthropic-Ratelimit-Input-Tokens-Limit:
+      - '4000000'
+      Anthropic-Ratelimit-Input-Tokens-Remaining:
+      - '3953000'
+      Anthropic-Ratelimit-Input-Tokens-Reset:
+      - '2026-10-05T21:52:09Z'
+      Anthropic-Ratelimit-Output-Tokens-Limit:
+      - '800000'
+      Anthropic-Ratelimit-Output-Tokens-Remaining:
+      - '799000'
+      Anthropic-Ratelimit-Output-Tokens-Reset:
+      - '2026-10-05T21:52:25Z'
+      Anthropic-Ratelimit-Requests-Limit:
+      - '4000'
+      Anthropic-Ratelimit-Requests-Remaining:
+      - '3999'
+      Anthropic-Ratelimit-Requests-Reset:
+      - '2026-10-05T21:52:07Z'
+      Anthropic-Ratelimit-Tokens-Limit:
+      - '4800000'
+      Anthropic-Ratelimit-Tokens-Remaining:
+      - '4752000'
+      Anthropic-Ratelimit-Tokens-Reset:
+      - '2026-10-05T21:52:09Z'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Request-Id:
+      - req_011CfjqB8dnxZvokYbH9n6k6
+      Traceresponse:
+      - 00-be5d674be41e22d8b0ce15428db70eb6-4609a55f71e61a94-01
+      Anthropic-Organization-Id:
+      - 7a8e3751-3b70-4f90-a3ce-07f57c9d0bfc
+      Anthropic-Workspace-Id:
+      - wrkspc_013AUxEybhVuYiAtdL5BCByf
+      Vary:
+      - Accept-Encoding
+      Content-Security-Policy:
+      - default-src 'none'; frame-ancestors 'none'
+      Server:
+      - cloudflare
+      Cf-Cache-Status:
+      - DYNAMIC
+      X-Robots-Tag:
+      - none
+      Cf-Ray:
+      - a45fa6ce9923b873-SJC
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJtb2RlbCI6ImNsYXVkZS1mYWJsZS01LTEiLCJpZCI6Im1zZ18wMTFDZmpxQjlYN3pydEpUaWs0ZEhzc0siLCJ0eXBlIjoibWVzc2FnZSIsInJvbGUiOiJhc3Npc3RhbnQiLCJjb250ZW50IjpbeyJ0eXBlIjoidGV4dCIsInRleHQiOiJ7XCJyZXN1bHRcIjpcIkV1UnVLbyAyMDI1IOKAlCBBZ2VuZGEgKGFyY2hpdmVkIGZyb20gaHR0cHM6Ly9hcHAuZXVydWtvLm9yZy9zZXNzaW9ucz9zdGFydHNfYXQ9MjAyNS0wOS0xOCB2aWEgV2F5YmFjayBNYWNoaW5lLCBjYXB0dXJlZCAyMDI1LTEyLTE0KVxcblxcbkV2ZW50OiBFdVJ1S28gMjAyNSAoZXVydWtvLm9yZylcXG5FdmVudCBkYXRlcyBwZXIgZGF0ZSBmaWx0ZXIgdGFiczogV2VkIFNlcCAxNywgVGh1IFNlcCAxOCwgRnJpIFNlcCAxOSwgU2F0IFNlcCAyMCwgMjAyNVxcbkxvY2F0aW9uIChpbmZlcnJlZCBmcm9tIGx1bmNoIHZlbnVlKTogVmlhbmEgZG8gQ2FzdGVsbywgUG9ydHVnYWxcXG5UaGlzIHBhZ2Ugc2hvd3Mgb25seSBPTkUgZGF5OiBUaHVyc2RheSwgU2VwdGVtYmVyIDE4LCAyMDI1IChEYXkgMSBvZiBtYWluIGNvbmZlcmVuY2UgdGFsa3Mg4oCUIGluY2x1ZGVzIE9wZW5pbmcgQ2VyZW1vbnkpXFxuVmVudWVzL3Jvb21zOiBNYWluIFN0YWdlLCBTb2NpYWwgQXJlYSwgVmlhbmEgZG8gQ2FzdGVsbyBDaXR5XFxuXFxuLS0tIFRodXJzZGF5LCAyMDI1LTA5LTE4IC0tLVxcblxcbjA4OjMw4oCTMDk6MzAgfCBSZWdpc3RyYXRpb24gLyBXZWxjb21lIENvZmZlZSB8IFNvY2lhbCBBcmVhXFxuXFxuMDk6MzDigJMxMDowMCB8IE9wZW5pbmcgQ2VyZW1vbnkgfCBNYWluIFN0YWdlXFxuXFxuMTA6MDDigJMxMDo1MCB8IEtleW5vdGUgfCBNYWluIFN0YWdlXFxuICBTcGVha2VyOiBZdWtpaGlybyBcXFwiTWF0elxcXCIgTWF0c3Vtb3RvIChzcGVha2Vycy95dWtpaGlyby1tYXR6LW1hdHN1bW90bylcXG4gIFNlc3Npb24gc2x1Zzoga2V5bm90ZVxcblxcbjExOjAw4oCTMTE6MzAgfCBJbnRyb2R1Y2luZyBSZUFjdGlvblZpZXc6IEEgbmV3IEFjdGlvblZpZXctQ29tcGF0aWJsZSBFUkIgRW5naW5lIHwgTWFpbiBTdGFnZVxcbiAgU3BlYWtlcjogTWFyY28gUm90aCDigJQgRnVsbC1TdGFjayBSdWJ5IG9uIFJhaWxzIERldmVsb3BlciAoc3BlYWtlcnMvbWFyY28tcm90aClcXG4gIFNlc3Npb24gc2x1ZzogaW50cm9kdWNpbmctcmVhY3Rpb252aWV3LWEtbmV3LWFjdGlvbnZpZXctY29tcGF0aWJsZS1lcmItZW5naW5lXFxuXFxuMTE6MzDigJMxMjowMCB8IFBvc3RncmVzIFBhcnRpdGlvbmluZyBCZXN0IFByYWN0aWNlcyB8IE1haW4gU3RhZ2VcXG4gIFNwZWFrZXI6IEthcmVuIEpleCDigJQgUG9zdGdyZVNRTCBDb250cmlidXRvciB8IERhdGFiYXNlIGV4cGVydCB8IFNwZWFrZXIgfCBTb2x1dGlvbnMgQXJjaGl0ZWN0IGF0IFNub3dmbGFrZSAoc3BlYWtlcnMva2FyZW4tamV4KVxcbiAgU2Vzc2lvbiBzbHVnOiBwb3N0Z3Jlcy1wYXJ0aXRpb25pbmctYmVzdC1wcmFjdGljZXNcXG5cXG4xMjowMOKAkzEzOjMwIHwgTHVuY2ggYnJlYWsgfCBWaWFuYSBkbyBDYXN0ZWxvIENpdHlcXG5cXG4xMzozMOKAkzE0OjAwIHwgUmV3cml0ZSB3aXRoIGNvbmZpZGVuY2U6IHZhbGlkYXRpbmcgYnVzaW5lc3MgcnVsZXMgdGhyb3VnaCBpc29sYXRlZCB0ZXN0aW5nIHwgTWFpbiBTdGFnZVxcbiAgU3BlYWtlcjogU3p5bW9uIEZpZWRsZXIg4oCUIFNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlciBhdCBBcmtlbmN5IChzcGVha2Vycy9zenltb24tZmllZGxlcilcXG4gIFNlc3Npb24gc2x1ZzogcmV3cml0ZS13aXRoLWNvbmZpZGVuY2UtdmFsaWRhdGluZy1idXNpbmVzcy1ydWxlcy10aHJvdWdoLWlzb2xhdGVkLXRlc3RpbmdcXG5cXG4xNDowNeKAkzE0OjM1IHwgVGhlIGhpZGRlbiB2YWx1ZSBvZiBuaWNoZSBvcGVuLXNvdXJjZSBwcm9qZWN0cyB8IE1haW4gU3RhZ2VcXG4gIFNwZWFrZXI6IFLDqW15IEhhbm5lcXVpbiDigJQgU2VuaW9yIGRldmVsb3BlciBhdCB0aG91Z2h0Ym90IEZyYW5jZSAoc3BlYWtlcnMvcmVteS1oYW5uZXF1aW4pXFxuICBTZXNzaW9uIHNsdWc6IHRoZS1oaWRkZW4tdmFsdWUtb2YtbmljaGUtb3Blbi1zb3VyY2UtcHJvamVjdHNcXG5cXG4xNDo0NeKAkzE1OjE1IHwgSG93IGEgUnVieSBwcm9maWxlciB3b3JrczogU3RhY2twcm9mIHVuZGVyIGEgbWljcm9zY29wZSB8IE1haW4gU3RhZ2VcXG4gIFNwZWFrZXI6IEl2byBBbmpvIOKAlCBTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciBhdCBEYXRhZG9nIChzcGVha2Vycy9pdm8tYW5qbylcXG4gIFNlc3Npb24gc2x1ZzogaG93LWEtcnVieS1wcm9maWxlci13b3Jrcy1zdGFja3Byb2YtdW5kZXItYS1taWNyb3Njb3BlXFxuXFxuMTU6MjDigJMxNTo1MCB8IENvbnF1ZXJpbmcgTWFzc2l2ZSBUcmFmZmljIFNwaWtlcyBpbiBSdWJ5IEFwcGxpY2F0aW9ucyB3aXRoIFBpdGNoZm9yayB8IE1haW4gU3RhZ2VcXG4gIFNwZWFrZXI6IFNhbmd5b25nIFNpbSBcXFwiU2hpYVxcXCIg4oCUIFNvZnR3YXJlIEVuZ2luZWVyIChzcGVha2Vycy9zYW5neW9uZy1zaW0tc2hpYSlcXG4gIFNlc3Npb24gc2x1ZzogY29ucXVlcmluZy1tYXNzaXZlLXRyYWZmaWMtc3Bpa2VzLWluLXJ1YnktYXBwbGljYXRpb25zLXdpdGgtcGl0Y2hmb3JrXFxuXFxuMTU6NTDigJMxNjo0MCB8IENvZmZlZSBCcmVhayB8IFNvY2lhbCBBcmVhXFxuXFxuMTY6NDDigJMxNzoxMCB8IEJ1aWxkaW5nIGludGVyYWN0aXZlIFJ1YnkgZ2VtIHR1dG9yaWFscyB3aXRoIFdhc20g4oCTIHllcywgcmlnaHQgaW4gdGhlIGJyb3dzZXIhIHwgTWFpbiBTdGFnZVxcbiAgU3BlYWtlcjogQWxiZXJ0IFBhemRlcmluIOKAlCBCYWNrZW5kIGRldmVsb3BlciBhdCBFdmlsIE1hcnRpYW5zIChzcGVha2Vycy9hbGJlcnQtcGF6ZGVyaW4pXFxuICBTZXNzaW9uIHNsdWc6IGJ1aWxkaW5nLWludGVyYWN0aXZlLXJ1YnktZ2VtLXR1dG9yaWFscy13aXRoLXdhc20teWVzLXJpZ2h0LWluLXRoZS1icm93c2VyXFxuXFxuMTc6MTXigJMxNzo0NSB8IFJvYXN0aW5nIENvZGUgZm9yIEZ1biAmIFByb2ZpdCB3aXRoIFN0cnVjdHVyZWQgQUkgV29ya2Zsb3dzIHwgTWFpbiBTdGFnZVxcbiAgU3BlYWtlcjogT2JpZSBGZXJuYW5kZXog4oCUIFByaW5jaXBhbCBFbmdpbmVlciBhdCBTaG9waWZ5IChzcGVha2Vycy9vYmllLWZlcm5hbmRleilcXG4gIFNlc3Npb24gc2x1Zzogcm9hc3RpbmctY29kZS1mb3ItZnVuLXByb2ZpdC13aXRoLXN0cnVjdHVyZWQtYWktd29ya2Zsb3dzXFxuXFxuMTc6NDXigJMyMjowMCB8IFZlcmRlIGRlIEhvbnJhIC0gU3RhcnRzIHRoZSBwYXJ0eSB8IFNvY2lhbCBBcmVhIChzZXNzaW9uIHNsdWc6IHBhcnR5LWRqLXN1bnNldC1rYXJhb2tlOyBzb2NpYWwgZXZlbnQsIG5vdCBhIHRhbGspXFxuXFxuMTg6MzDigJMyMjowMCB8IERKIFN1bnNldCBQYXJ0eSDigJQgQnkgdGhlIFJpdmVyIHwgU29jaWFsIEFyZWEgKHNvY2lhbCBldmVudCwgbm90IGEgdGFsaylcXG5cXG4xOTozMOKAkzIyOjAwIHwgS2FyYW9rZSB8IE1haW4gU3RhZ2UgKHNvY2lhbCBldmVudCwgbm90IGEgdGFsaylcXG5cXG5Ob3RlczpcXG4tIEFsbCBzZXNzaW9ucyBtYXJrZWQgXFxcIlNlc3Npb24gaXMgb3ZlclxcXCIgYXQgYXJjaGl2ZSB0aW1lLlxcbi0gVGFsa3Mgb24gdGhpcyBkYXkgYXJlIHNpbmdsZS10cmFjayAoYWxsIG9uIE1haW4gU3RhZ2UpOyBlYWNoIHJlZ3VsYXIgdGFsayBpcyAzMCBtaW51dGVzLCBrZXlub3RlIGlzIDUwIG1pbnV0ZXMuXFxuLSBOb24tdGFsayBpdGVtcyAocmVnaXN0cmF0aW9uLCBvcGVuaW5nIGNlcmVtb255LCBsdW5jaCwgY29mZmVlIGJyZWFrLCBwYXJ0eSwgREosIGthcmFva2UpIGFyZSBpbmNsdWRlZCBmb3Igc2NoZWR1bGUgY29udGV4dCBvbmx5LlwifSJ9XSwiY29udGFpbmVyIjpudWxsLCJzdG9wX3JlYXNvbiI6ImVuZF90dXJuIiwic3RvcF9zZXF1ZW5jZSI6bnVsbCwic3RvcF9kZXRhaWxzIjpudWxsLCJ1c2FnZSI6eyJpbnB1dF90b2tlbnMiOjczMzA1LCJjYWNoZV9jcmVhdGlvbl9pbnB1dF90b2tlbnMiOjAsImNhY2hlX3JlYWRfaW5wdXRfdG9rZW5zIjowLCJjYWNoZV9jcmVhdGlvbiI6eyJlcGhlbWVyYWxfNW1faW5wdXRfdG9rZW5zIjowLCJlcGhlbWVyYWxfMWhfaW5wdXRfdG9rZW5zIjowfSwib3V0cHV0X3Rva2VucyI6MTY5Mywib3V0cHV0X3Rva2Vuc19kZXRhaWxzIjp7InRoaW5raW5nX3Rva2VucyI6MH0sInNlcnZpY2VfdGllciI6InN0YW5kYXJkIiwiaW5mZXJlbmNlX2dlbyI6Imdsb2JhbCJ9LCJkaWFnbm9zdGljcyI6bnVsbH0=
+  recorded_at: Mon, 05 Oct 2026 21:52:25 GMT
+recorded_with: VCR 6.4.0
