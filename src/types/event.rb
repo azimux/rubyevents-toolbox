@@ -18,9 +18,10 @@ module Azimux
           thumbnail_md :string, :allow_nil, "Likely nil but if there's an obvious thumbnail URL then it will be here"
           thumbnail_lg :string, :allow_nil, "Likely nil but if there's an obvious thumbnail URL then it will be here"
           thumbnail_xl :string, :allow_nil, "Likely nil but if there's an obvious thumbnail URL then it will be here"
-          event_description :string, :allow_nil, "If possible to construct, would be something like:\n" \
-                                                 "This is a collection of talks from the RubySur Meetup held on August 14th, 2023. \n\n" \
-                                                 "https://ruby.com.ar/meetup/2023_08.html"
+          description :string, :allow_nil, "If possible to construct, would be something like:\n" \
+                                           "This is a collection of talks from the RubySur Meetup " \
+                                           "held on August 14th, 2023. \n\n" \
+                                           "https://ruby.com.ar/meetup/2023_08.html"
           talks [Talk], default: []
         end
       end

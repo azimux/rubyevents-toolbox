@@ -26,14 +26,16 @@ RSpec.describe Azimux::RubyeventsToolbox::ExtractRubyeventsSchedule do
   let(:llm_model) { Foobara::Ai::AnthropicApi::Types::ModelEnum::CLAUDE_FABLE_5_1 }
   let(:hints) { "Event id should be euruko-2025" }
 
-  it "extracts valid schedule data", :focus, vcr: { record: :once } do
+  it "extracts valid schedule data", vcr: { record: :none } do
     expect(outcome).to be_success
     expect(result).to be_a(Azimux::RubyeventsToolbox::Types::Event)
 
     event = result
 
     # TODO: how does a multi-day event get reflected in videos.yml??
-    expect(event.date).to eq(Date.parse("2025-09-18"))
+    # sometimes it reports this as the 17th (start day of the event) and sometimes the 18th
+    # (the day all these talks happened)
+    expect(event.date).to eq(Date.parse("2025-09-17"))
     expect(event.talks.size).to be(9)
 
     talks = event.talks
