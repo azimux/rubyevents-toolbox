@@ -1,29 +1,38 @@
-# 
-
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library
-into a gem. Put your Ruby code in the file `lib/foobara/empty_ruby_project_generator`. To experiment with that code,
-run `bin/console` for an interactive prompt.
-
+# Azimux::RubyeventsToolbox
 
 ## Installation
 
-Typical stuff: add `gem "azimux-rubyevents-toolbox"` to your Gemfile or .gemspec file. Or even just
-`gem install azimux-rubyevents-toolbox` if just playing with it directly in scripts.
+This isn't actually released so could vendor it or use it as a gem with `github:` in `Gemfile`
 
 ## Usage
 
-TODO: Write usage instructions here
+Only two potentially useful commands in here at the moment:
 
 ```ruby
-#!/usr/bin/env ruby
-
-require "foobara/load_dotenv"
-Foobara::LoadDotenv.run!(dir: __dir__)
-
-TODO: some example code
+Azimux::RubyeventsToolbox::ExtractAndMassageUsefulText.run(
+  raw_input_text:,
+  llm_model:,
+  hints:
+)
 ```
+
+Which will result in a `Event` object that has multiple `Talk` objects in it.
+
+and
+
+```ruby
+Azimux::RubyeventsToolbox::ExtractAndMassageUsefulText.run(
+  raw_input_text:,
+  llm_model:,
+  hints:
+)
+```
+
+Which just returns a string that is extracted and prepared for passing to `ExtractAndMassageUsefulText`
+to try to get better results when dealing with lots of markup and whatnot.
+
+See the specs and fixtures for some examples!
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub
