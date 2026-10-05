@@ -1,8 +1,11 @@
 require "vcr"
 
 VCR.configure do |config|
-  # config.filter_sensitive_data("<SCRUBBED_SOME_API_KEY>") { ENV.fetch("SOME_API_KEY", nil) }
-  # Scrubbing these by default just in-case they contain any sensitive data
+  config.filter_sensitive_data("<SCRUBBED_OPENAI_API_KEY>") { ENV.fetch("OPENAI_API_KEY", nil) }
+  config.filter_sensitive_data("<SCRUBBED_ANTHROPIC_API_KEY>") { ENV.fetch("ANTHROPIC_API_KEY", nil) }
+  config.filter_sensitive_data("<SCRUBBED_OLLAMA_API_URL>") { ENV.fetch("OLLAMA_API_URL", nil) }
+  config.filter_sensitive_data("<SCRUBBED_OLLAMA_API_KEY>") { ENV.fetch("OLLAMA_API_KEY", nil) }
+
   config.before_record do |interaction|
     if interaction.request.headers["Cookie"]
       interaction.request.headers["Cookie"] = ["<SCRUBBED>"]

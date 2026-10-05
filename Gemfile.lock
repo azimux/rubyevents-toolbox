@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     azimux-rubyevents-toolbox (0.0.1)
-      foobara (>= 0.0.136, < 2.0.0)
+      foobara (>= 0.6.5, < 2.0.0)
+      foobara-llm-backed-command (< 2.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -61,6 +62,7 @@ GEM
       foobara-lru-cache (< 2.0.0)
       foobara-util (< 2.0.0)
       inheritable-thread-vars (< 2.0.0)
+    foobara-ai (1.0.6)
     foobara-command-generator (0.1.0)
       foobara (>= 0.1.7, < 2.0.0)
       foobara-files-generator (< 2.0.0)
@@ -81,6 +83,12 @@ GEM
       foobara-files-generator (< 2.0.0)
     foobara-files-generator (0.2.1)
       foobara (>= 0.1.1, < 2.0.0)
+    foobara-json-schema-generator (1.1.1)
+      foobara (>= 0.1.1, < 2.0.0)
+    foobara-llm-backed-command (1.0.4)
+      foobara (>= 0.6.4, < 2.0.0)
+      foobara-ai (>= 1.0.6, < 2.0.0)
+      foobara-json-schema-generator (>= 1.0.0, < 2.0.0)
     foobara-local-files-crud-driver-generator (0.0.3)
       foobara
       foobara-files-generator
@@ -319,6 +327,7 @@ CHECKSUMS
   ffi (1.17.4-x86_64-linux-musl) sha256=3fdf9888483de005f8ef8d1cf2d3b20d86626af206cbf780f6a6a12439a9c49e
   foob (0.1.2) sha256=0d9f7d7a059373a9740ec8f989a9f0a4dc272fec726732eb45af01147761648f
   foobara (0.6.5) sha256=4273b9d9854465caaea4a04d5a5c40c7155c4f795e37e5bab9572b82f79cf783
+  foobara-ai (1.0.6) sha256=e978384a79e3a68f8c2b6c56731e4b8229443dad3afd08e4d62b0665b2481812
   foobara-command-generator (0.1.0) sha256=845b5f728cc92a35d2ced0046e232644a1d4c5e43846d902be3585b6de2051af
   foobara-domain-generator (0.0.3) sha256=d6071e56d937103ff4171cc9746412da4ccf7870a3c0397d1c7b19b6ee2990ab
   foobara-domain-mapper-generator (0.0.4) sha256=74da1948484c3688ab2c7eade6653e9b41de4d495dc74e4a0986577a6b1e60e3
@@ -326,6 +335,8 @@ CHECKSUMS
   foobara-empty-ruby-project-generator (1.0.5) sha256=a9164a1e1b198dac9a13d61551fd1c8385b2c583dea5b412722ce0e393792d75
   foobara-empty-typescript-react-project-generator (0.3.0) sha256=86857b153f4cb8a018ff7e4f6505493bb3acc4e8be51a697c2fca2d577011e3c
   foobara-files-generator (0.2.1) sha256=f08c0c7d53c3adf3888daf6c6891a5e609fdfba568081dcff4eb44c489e95e2a
+  foobara-json-schema-generator (1.1.1) sha256=3bbebfb784ff7ac7c200d9ce0ef15bbc829bc00a5dc98d631dd8ce619fb1976b
+  foobara-llm-backed-command (1.0.4) sha256=a9bf77bb2ef417f5f3da1bcea005fbbe6a9bc56f028489091995ab381ec1b334
   foobara-local-files-crud-driver-generator (0.0.3) sha256=c9a6c7472c21eeefeb5ea950c89f8f3490dc1a10e6ed2ca89c0854b00bed6810
   foobara-lru-cache (1.0.0) sha256=ff9716e011a4642382dc0e1fd7a80751134b1fbf97d180fd333472a5d20f2029
   foobara-mcp-connector-generator (0.1.0) sha256=a4e82267b28737a18221d05df139bfcc48f493f9484f8d53cd657399d2903637
