@@ -1,0 +1,30 @@
+first = [
+  "remote.rb"
+]
+
+last = %w[
+  async.rb
+  cron.rb
+]
+
+skip = ["start.rb", "finish.rb", *first, *last]
+
+# simplecov:disable
+first.each { |f| require_relative f if File.exist?("#{__dir__}/#{f}") }
+# simplecov:enable
+
+require "azimux/rubyevents_toolbox"
+
+Dir.entries(__dir__).each do |boot_file|
+  next unless boot_file.end_with?(".rb")
+  next if skip.include?(boot_file)
+  # simplecov:disable
+  next unless File.exist?("#{__dir__}/#{boot_file}")
+  # simplecov:enable
+
+  require_relative boot_file
+end
+
+# simplecov:disable
+last.each { |f| require_relative f if File.exist?("#{__dir__}/#{f}") }
+# simplecov:enable
