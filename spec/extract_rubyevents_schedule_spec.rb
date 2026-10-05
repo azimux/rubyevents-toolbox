@@ -35,7 +35,7 @@ RSpec.describe Azimux::RubyeventsToolbox::ExtractRubyeventsSchedule do
     # TODO: how does a multi-day event get reflected in videos.yml??
     # sometimes it reports this as the 17th (start day of the event) and sometimes the 18th
     # (the day all these talks happened)
-    expect(event.date).to eq(Date.parse("2025-09-17"))
+    expect(event.date).to eq(Date.parse("2025-09-18"))
     expect(event.talks.size).to be(9)
 
     talks = event.talks
