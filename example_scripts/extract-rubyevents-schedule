@@ -1,0 +1,108 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+
+# add your keys/urls to .env or set them some other way and delete these two lines
+require "foobara/load_dotenv"
+Foobara::LoadDotenv.run!(dir: __dir__)
+
+require "foobara/cached_command"
+
+require "foobara/anthropic_api" if ENV.key?("ANTHROPIC_API_KEY")
+# require "foobara/open_ai_api" if ENV.key?("OPENAI_API_KEY")
+# require "foobara/ollama_api" if ENV.key?("OLLAMA_API_URL")
+
+require "azimux/rubyevents_toolbox"
+
+require "pry"
+require "pry-byebug"
+
+module Azimux
+  module RubyeventsToolbox
+    class ExtractEventFromUrl < Foobara::Command
+      inputs do
+        url :string, :required
+        llm_model :symbol,
+                  one_of: Foobara::Ai::AnswerBot::Types::ModelEnum,
+                  default: "claude-fable-5-1"
+        hints do
+          html_to_text :string
+          text_to_event :string
+        end
+      end
+
+      result Types::Event
+
+      depends_on ExtractAndMassageUsefulText,
+                 ExtractRubyeventsSchedule
+
+      def execute
+        fetch_html_from_url
+        extract_and_massage_useful_text
+        extract_rubyevents_schedule
+
+        event
+      end
+
+      attr_accessor :raw_html, :massaged_text, :event
+
+      def fetch_html_from_url
+        self.raw_html = Net::HTTP.get(URI(url))
+      end
+
+      def extract_and_massage_useful_text
+        inputs = { raw_input_text: raw_html }
+
+        hint = hints&.[](:html_to_text)
+        inputs[:hints] = hint if hint
+
+        self.massaged_text = run_subcommand!(ExtractAndMassageUsefulText, inputs)
+      end
+
+      def extract_rubyevents_schedule
+        inputs = { raw_input_text: massaged_text }
+
+        hint = hints&.[](:text_to_event)
+        inputs[:hints] = hint if hint
+
+        self.event = run_subcommand!(ExtractRubyeventsSchedule, inputs)
+      end
+    end
+
+    # Uncomment this if wanting to avoid hitting services every time
+    # (for example if working on serialization or something)
+    #
+    # [
+    #   ExtractEventFromUrl,
+    #   ExtractRubyeventsSchedule,
+    #   ExtractAndMassageUsefulText
+    # ].each do |command_class|
+    #   include Foobara::CachedCommand
+    #
+    #   self.foobara_cache_expiry = 24 * 60 * 60
+    # end
+  end
+end
+
+url = "https://web.archive.org/web/20251214035507/https://app.euruko.org/sessions?only_path=true&starts_at=2025-09-18"
+
+outcome = Azimux::RubyeventsToolbox::ExtractEventFromUrl.run(
+  url:,
+  llm_model: "claude-fable-5-1",
+  hints: {
+    html_to_text: "This is just one day of the event",
+    text_to_event: "Event id should be euruko-2025"
+  }
+)
+
+unless outcome.success?
+  pp outcome.errors_hash
+  exit 1
+end
+
+event = outcome.result
+aggregate_serializer = Foobara::CommandConnectors::Serializers::AggregateSerializer.new
+yaml_serializer = Foobara::CommandConnectors::Serializers::YamlSerializer.new
+
+yaml = yaml_serializer.serialize(aggregate_serializer.serialize(event))
+puts yaml

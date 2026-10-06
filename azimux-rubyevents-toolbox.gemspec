@@ -1,7 +1,7 @@
 require_relative "version"
 
 Gem::Specification.new do |spec|
-  spec.name = "azimux-rubyevents-toolbox"
+  spec.name = "rubyevents-toolbox"
   spec.version = Azimux::RubyeventsToolbox::VERSION
   spec.authors = ["Miles Georgi"]
   spec.email = ["azimux@gmail.com"]

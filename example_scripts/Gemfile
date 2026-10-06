@@ -1,0 +1,24 @@
+source "https://rubygems.org"
+
+gem "foobara-llm-backed-command", path: "../../../foobara/llm-backed-command"
+
+gem "foobara-cached-command", "< 2.0.0"
+gem "foobara-dotenv-loader", "< 2.0.0"
+gem "rubyevents-toolbox", path: "../"
+
+gem "rake"
+
+group :development do
+  gem "foobara-rubocop-rules", ">= 1.0.0"
+  gem "rubocop-rake"
+  gem "rubocop-rspec"
+end
+
+group :development, :test do
+  gem "pry"
+  gem "pry-byebug"
+
+  gem "foobara-anthropic-api", ">= 1.0.8", "< 2.0.0" # , path: "../anthropic-api"
+  gem "foobara-ollama-api", "< 2.0.0" # , path: "../ollama-api"
+  gem "foobara-open-ai-api", "< 2.0.0" # , path: "../open-ai-api"
+end

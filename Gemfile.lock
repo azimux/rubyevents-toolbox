@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    azimux-rubyevents-toolbox (0.0.1)
+    rubyevents-toolbox (0.0.1)
       foobara (>= 0.6.5, < 2.0.0)
       foobara-llm-backed-command (< 2.0.0)
 
@@ -277,7 +277,6 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  azimux-rubyevents-toolbox!
   foob
   foobara-anthropic-api (>= 1.0.8, < 2.0.0)
   foobara-dotenv-loader (< 2.0.0)
@@ -294,6 +293,7 @@ DEPENDENCIES
   rubocop-rake
   rubocop-rspec
   ruby-prof
+  rubyevents-toolbox!
   simplecov
   vcr
   webmock
@@ -301,7 +301,6 @@ DEPENDENCIES
 CHECKSUMS
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
-  azimux-rubyevents-toolbox (0.0.1)
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   bigdecimal (4.1.3) sha256=61ebe1e5e559bdc3cc6f2c0ee7f427321fc838f59611c294356eb04d6e21cf66
   bundler (4.0.21) sha256=7cbf5499b426076aa16c8d28a59e4c2c3aad5a438402abcd961f0119f29f1dd0
@@ -400,6 +399,7 @@ CHECKSUMS
   rubocop-rspec (3.10.2) sha256=0b3e2ecc592cd10ecbf0095bb58d1e357905276e069643523cc19eb7495f65e2
   ruby-prof (2.0.5) sha256=dbc3b5112089538ac33303145db0cbd77cbdcdbc05b09e44a967ff72a36d6c0e
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
+  rubyevents-toolbox (0.0.1)
   shellany (0.0.1) sha256=0e127a9132698766d7e752e82cdac8250b6adbd09e6c0a7fbbb6f61964fedee7
   simplecov (1.3.2) sha256=2a22ec1759f1b8db60881a2e038758956fc69ef93ed669be0bde0678de6d0e85
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
